@@ -1,6 +1,6 @@
-(ns jdal2.core-test
+(ns jdal.core-test
   (:require [clojure.test :refer :all]
-            [jdal2.core :refer :all]))
+            [jdal.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."

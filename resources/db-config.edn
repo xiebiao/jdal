@@ -1,0 +1,10 @@
+[{:id 1,
+  :driver "com.mysql.jdbc.Driver",
+  :url "jdbc:mysql://192.168.195.139:3306/eptid_promotion_dev?useUnicode=true&characterEncoding=UTF8",
+  :user "root",
+  :password "123456"}
+{:id 2,
+  :driver "com.mysql.jdbc.Driver",
+  :url "jdbc:mysql://127.0.0.1:3306/eptid_promotion_dev?useUnicode=true&characterEncoding=UTF8",
+  :user "root",
+  :password "123456"}]
