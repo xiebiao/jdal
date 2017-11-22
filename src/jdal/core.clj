@@ -4,13 +4,6 @@
             [clojure.edn :as edn])
   (:import com.alibaba.druid.pool.DruidDataSource))
 
-(def db-config 
-  {:classname "com.mysql.jdbc.Driver"
-   :subprotocol "mysql"
-   :subname "//192.168.195.139/eptid_promotion_dev?useUnicode=true&characterEncoding=UTF8"
-   :user "root"
-   :password "123456"})
-
 (defn- load-db-config [db-config-name]
   "Load db config from edn file."
   (with-open [in-edn (->
